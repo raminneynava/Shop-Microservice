@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  productdb:
+    image: postgres
+  pgadmin:
+    image: dpage/pgadmin4
+  products.api:
+    image: ${DOCKER_REGISTRY-}productsapi
+    build:
+      context: .
+      dockerfile: src/Services/Products/Products.Api/Dockerfile
+volumes:
+    19e47da99d101ebdfb6ef2a70a9ccc52db3f88b2d9aeb4e5bb05ca897eec3317:
+    pgadmin_data:

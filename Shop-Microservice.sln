@@ -9,13 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{22
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{2CD71A02-B273-42F3-ABEF-B7F03090FF25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.Api", "src\Services\Products\Products.Api\Products.Api.csproj", "{C12A3CFF-F698-4915-BBBA-C9AA4CEA0D28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products.Api", "src\Services\Products\Products.Api\Products.Api.csproj", "{C12A3CFF-F698-4915-BBBA-C9AA4CEA0D28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.Domain", "src\Services\Products\Products.Domain\Products.Domain.csproj", "{8578479A-409A-4EB5-9FB3-0F15690A81FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products.Domain", "src\Services\Products\Products.Domain\Products.Domain.csproj", "{8578479A-409A-4EB5-9FB3-0F15690A81FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.Infrastructure", "src\Services\Products\Products.Infrastructure\Products.Infrastructure.csproj", "{3733981C-5B3C-4DDB-9927-4466DD72A505}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products.Infrastructure", "src\Services\Products\Products.Infrastructure\Products.Infrastructure.csproj", "{3733981C-5B3C-4DDB-9927-4466DD72A505}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.Application", "src\Services\Products\Products.Application\Products.Application.csproj", "{12D54501-808F-4D46-9005-32A588F76348}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products.Application", "src\Services\Products\Products.Application\Products.Application.csproj", "{12D54501-808F-4D46-9005-32A588F76348}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6DDD6160-41FE-4B36-AE21-A53D36E4EB4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{12D54501-808F-4D46-9005-32A588F76348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12D54501-808F-4D46-9005-32A588F76348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12D54501-808F-4D46-9005-32A588F76348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DDD6160-41FE-4B36-AE21-A53D36E4EB4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DDD6160-41FE-4B36-AE21-A53D36E4EB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DDD6160-41FE-4B36-AE21-A53D36E4EB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DDD6160-41FE-4B36-AE21-A53D36E4EB4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
