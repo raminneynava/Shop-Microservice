@@ -29,5 +29,11 @@ namespace Products.Api.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("test")]
+        public IActionResult test()
+        {
+            return Ok();
+        }
     }
 }
